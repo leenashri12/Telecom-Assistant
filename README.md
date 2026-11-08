@@ -1,3 +1,14 @@
+---
+title: Telecom Customer Assistant
+emoji: 📡
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.38.0
+app_file: app.py
+pinned: false
+---
+
 # 📡 Telecom Customer Assistant (Enterprise RAG)
 
 A production-grade Retrieval-Augmented Generation (RAG) customer care assistant for telecommunication networks. It answers complex technical queries, billing rules, and connectivity issues by dynamically retrieving context across three knowledge sources and streaming answers using **Qwen 3.8 27B** via **Groq LPU**.
