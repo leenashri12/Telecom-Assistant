@@ -1,0 +1,134 @@
+{
+  "total_tests": 9,
+  "retrieval_accuracy": 100.0,
+  "grounding_accuracy": 100.0,
+  "average_latency_sec": 3.09,
+  "test_results": [
+    {
+      "id": "TEST-01",
+      "category": "FAQ - Roaming",
+      "question": "What are the roaming charges in the EU without a bundle?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 0.81,
+      "generated_answer": "Based on the official FAQ, without a roaming bundle, the charges in the EU are:\n\n*   **Data:** $10 per MB\n*   **Calls:** $1.50 per minute\n\nFor referen..."
+    },
+    {
+      "id": "TEST-02",
+      "category": "FAQ - SIM",
+      "question": "How long does SIM activation typically take?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 0.46,
+      "generated_answer": "According to the official FAQ, a new SIM card typically activates within **15 minutes** of inserting it.\n\nIf it has not activated after 1 hour, you sh..."
+    },
+    {
+      "id": "TEST-03",
+      "category": "FAQ - Billing",
+      "question": "When is my bill payment due after generation?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 0.46,
+      "generated_answer": "Your bill payment is due **14 days** after it is generated.\n\nAccording to the official FAQ, your bill is generated on your monthly anniversary date, a..."
+    },
+    {
+      "id": "TEST-04",
+      "category": "Ticket - APN Issue",
+      "question": "How was the 'No internet access' issue resolved in past customer cases?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 0.68,
+      "generated_answer": "Based on the provided context, the \"No internet access\" issue was resolved in past customer case **#TK-001** as follows:\n\n*   **Issue:** The customer ..."
+    },
+    {
+      "id": "TEST-05",
+      "category": "Ticket - Data Sync",
+      "question": "What steps were taken when a customer's data balance was not updating?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 0.72,
+      "generated_answer": "Based on the provided context, specifically **Resolved Support Ticket #TK-003**, the following steps were taken to resolve the issue of a data balance..."
+    },
+    {
+      "id": "TEST-06",
+      "category": "Ticket - Signal Drop",
+      "question": "What compensation was given for intermittent signal drops due to a faulty tower antenna?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 66.7,
+      "latency_seconds": 0.43,
+      "generated_answer": "According to past resolved support case #TK-002, the customer was offered **500 MB of data compensation** for the intermittent signal drops caused by ..."
+    },
+    {
+      "id": "TEST-07",
+      "category": "Guide - Fair Use",
+      "question": "To what exact speed is mobile internet throttled when the high-speed data cap is reached?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 4.58,
+      "generated_answer": "Based on the official documentation, the throttled speed depends on your specific plan type:\n\n*   **Standard Plans:** Your speed is throttled to **512..."
+    },
+    {
+      "id": "TEST-08",
+      "category": "Guide - Voice",
+      "question": "How does VoLTE provide HD voice calling over 4G?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 9.97,
+      "generated_answer": "Based on the provided context, VoLTE (Voice over LTE) provides HD voice calling over the 4G network by transmitting voice calls as data packets over t..."
+    },
+    {
+      "id": "TEST-09",
+      "category": "Guardrail - Out of Scope",
+      "question": "How do I cancel my residential fiber optic broadband plan?",
+      "retrieval_hit": true,
+      "sources_retrieved": [
+        "User Guide",
+        "FAQ",
+        "Support Ticket"
+      ],
+      "grounding_score": 100.0,
+      "latency_seconds": 9.7,
+      "generated_answer": "Based on the provided context, there is no information regarding how to cancel a **residential fiber optic broadband plan**. The available documentati..."
+    }
+  ]
+}
