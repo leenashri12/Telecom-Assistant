@@ -214,3 +214,14 @@ def run_evaluation_endpoint():
     """Runs the golden benchmark evaluation suite and returns metrics."""
     metrics = run_evaluation()
     return metrics
+
+
+if __name__ == "__main__":
+    import uvicorn
+    print("\n" + "=" * 70)
+    print(" 🚀 Starting Telecom Customer Care FastAPI Server...")
+    print(" 👉 Swagger UI Documentation: http://127.0.0.1:8000/docs")
+    print(" 👉 ReDoc Documentation    : http://127.0.0.1:8000/redoc")
+    print("=" * 70 + "\n")
+    uvicorn.run("server:app", host="127.0.0.1", port=8000, reload=True)
+
